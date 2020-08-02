@@ -7,7 +7,8 @@ In this project we are using VBA to help us analyze the stocks we are given. The
 
 #Our findings
 Our 2017 findings show that most of the tickers had a positive return and were safe investments. The Particular one that Steve's parents were looking into was DQ which had the greatest return of all. For the 2018 you can see that the returns were not nearly as high and the total volumes were down as well. I think some of the reason for this was because if you look at the very top of the data in the 2018 spread sheet you can see the prices went up a bit.
-https://github.com/Deving789/VBA_Challenge/issues/1
+
+![alt text](https://github.com/Deving789/VBA_Challenge/issues/1)
 
 #Refractoring the code
 For this challenge we refractored the code so that the code would be more efficient and run faster. One of the main things we did in this refractored code that made it different was creating the three output arrays(tickerIndex and tickerVOlumes) as arrays. Having the extra array allowed us to loop through the rows, increase our tickerVolume and add the volume for the current stockticker. From that point we are able to create our if-statements to select the ticker that we are looking for each specific cell and get our total volume and return.
